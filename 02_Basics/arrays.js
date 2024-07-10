@@ -56,3 +56,10 @@ splice the portion from original array
 */
 let splicedArray = myArr.splice(1,4)
 console.log(`Spliced Array is ${splicedArray} and original array is now ${myArr}`);
+
+//To access each element of array we can use loop
+
+let fruits = ['Banana','Apple','Orange','Strawberry']
+for(let key in fruits){
+    console.log(fruits[key]);
+}
