@@ -4,7 +4,7 @@ krwa skty h. Array copy operation ma hamain shell copy milti h jiska mtlb ye h k
 refrence milta h original value ka na ka value milti h like heap
 */
 
-const myArr = [10,20,30,40,50]
+const myArr = [10,20,30,40,50,60,70]
 
 console.log(myArr[0]);
 
@@ -40,7 +40,7 @@ console.log(myArr.includes(300));
 console.log(myArr.indexOf(400));
 
 //.join() convert krdeta h array ko string ma 
-const arrToString = myArr.join()
+const arrToString = myArr.join("*")
 console.log(`Array to string is ${arrToString}`);
 
 /*
@@ -63,3 +63,4 @@ let fruits = ['Banana','Apple','Orange','Strawberry']
 for(let key in fruits){
     console.log(fruits[key]);
 }
+
